@@ -52,7 +52,7 @@ class _HomeState extends State<Home> {
       child: Transform.translate(
         offset: _currentOffset,
         child: Image.asset(
-          'assets/images/elephant.jpg',
+          'assets/images/lion.jpg',
           fit: BoxFit.cover,
         ),
       ),
@@ -66,7 +66,7 @@ class _HomeState extends State<Home> {
         ..translate(_currentOffset.dx, _currentOffset.dy),
       alignment: FractionalOffset.center,
       child: Image(
-        image: AssetImage('assets/images/elephant.jpg'),
+        image: AssetImage('assets/images/lion.jpg'),
       ),
     );
   }
